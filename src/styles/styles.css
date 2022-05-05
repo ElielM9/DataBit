@@ -30,6 +30,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--fuentePrincipal);
+  
 }
 
 /* GLOBALES */
@@ -190,7 +191,6 @@ img {
 
 .intercambio__parrafo {
   color: var(--azul);
-  line-height: 1.6rem;
   margin-bottom: 3rem;
 }
 
@@ -474,7 +474,6 @@ img {
 }
 
 .cards-planes__titulo {
-  text-align: center;
   width: 12rem;
   height: 3.1rem;
   position: absolute;
