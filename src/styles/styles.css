@@ -237,6 +237,7 @@ img {
 
 .tablas__titulo--azul {
   color: var(--azulSecundario);
+  text-align: right;
 }
 
 .tablas__tabla {
