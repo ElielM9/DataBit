@@ -1,5 +1,5 @@
+/* Importación de las funciones de Gulp. */
 const { src, dest, watch, parallel } = require(`gulp`);
-
 //HTML
 const htmlMin = require("gulp-htmlmin");
 
