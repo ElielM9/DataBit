@@ -1,5 +1,6 @@
-/* Importación de las funciones de Gulp. */
+/* Importa las funciones de gulp. */
 const { src, dest, watch, parallel } = require(`gulp`);
+
 //HTML
 const htmlMin = require("gulp-htmlmin");
 
@@ -19,8 +20,7 @@ const imgMin = require(`gulp-imagemin`);
 const webp = require(`gulp-webp`);
 const avif = require(`gulp-avif`);
 
-
-//CONCAT
+/* Concatena todos los archivos CSS en un solo archivo. */
 const concat = require(`gulp-concat`);
 //CACHE-BUST
 const cacheBust = require(`gulp-cache-bust`);
@@ -110,8 +110,6 @@ function vAvif(done) {
 
   done();
 }
-
-
 
 function dev(done) {
   watch(`src/views/**/*.html`, html);
