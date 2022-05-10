@@ -1,16 +1,13 @@
 /* Importa las funciones de gulp. */
 const { src, dest, watch, parallel } = require(`gulp`);
-
-//HTML
+/* Importa el paquete gulp-htmlmin. */
 const htmlMin = require("gulp-htmlmin");
-
-//CSS
+/* Importa los paquetes que van a ser usados en la función CSS */
 const autoprefixer = require(`autoprefixer`);
 const cssnano = require(`cssnano`);
 const postcss = require(`gulp-postcss`);
 const sourcemaps = require(`gulp-sourcemaps`);
 const clean = require(`gulp-purgecss`);
-
 //PLUMBER
 const plumber = require(`gulp-plumber`);
 
@@ -22,7 +19,7 @@ const avif = require(`gulp-avif`);
 
 /* Concatena todos los archivos CSS en un solo archivo. */
 const concat = require(`gulp-concat`);
-//CACHE-BUST
+/* Añade una marca de tiempo al final del archivo. */
 const cacheBust = require(`gulp-cache-bust`);
 
 //HTML
