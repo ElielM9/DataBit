@@ -116,6 +116,7 @@ function dev(done) {
   done();
 }
 
+/* Exporta las funciones para usarlas en la terminal. */
 exports.html = html;
 exports.css = css;
 exports.clean = cleanCSS;
