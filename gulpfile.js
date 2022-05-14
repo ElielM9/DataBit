@@ -8,10 +8,9 @@ const cssnano = require(`cssnano`);
 const postcss = require(`gulp-postcss`);
 const sourcemaps = require(`gulp-sourcemaps`);
 const clean = require(`gulp-purgecss`);
-/* Este paquete previene que las tareas de gulp se detengan cuando haya errores */
+//PLUMBER
 const plumber = require(`gulp-plumber`);
-
-//IMAGENES
+/* Importación de paquetes que serán usados en la función. */
 const cache = require(`gulp-cache`);
 const imgMin = require(`gulp-imagemin`);
 const webp = require(`gulp-webp`);
