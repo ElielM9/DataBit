@@ -10,7 +10,7 @@ const sourcemaps = require(`gulp-sourcemaps`);
 const clean = require(`gulp-purgecss`);
 //PLUMBER
 const plumber = require(`gulp-plumber`);
-/* Importación de paquetes que serán usados en la función. */
+/* Importación de paquetes que serán usados en la función img. */
 const cache = require(`gulp-cache`);
 const imgMin = require(`gulp-imagemin`);
 const webp = require(`gulp-webp`);
